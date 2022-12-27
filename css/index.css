@@ -63,7 +63,6 @@
 /* END OF LOGO SECTION */
 
 /* NAV SECTION */
-.nav {}
 
 .nav__links {
   display: flex;
@@ -202,8 +201,6 @@
   box-shadow: 0px 5px 20px 0px var(--white-opacity35);
 }
 
-.feature__item-img-source {}
-
 .feature__item-title {
   font-size: .83rem;
   margin-bottom: 15px;
@@ -218,6 +215,14 @@
 }
 /* END OF FEATURES SECTION */
 
+/* MEDIA SECTION */
+
+.media {
+  height: 60px;
+  align-items: center;
+}
+
+/* END OF MEDIA SECTION */
 /* FOOTER SECTION */
 .footer {
   background-color: var(--grey);
