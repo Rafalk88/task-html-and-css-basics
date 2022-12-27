@@ -1,0 +1,25 @@
+:root {}
+
+.header,
+.main,
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {}
+
+.hero {}
+
+.features {}
+
+.footer {}
