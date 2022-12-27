@@ -228,6 +228,130 @@
 }
 
 /* END OF MEDIA SECTION */
+/* MAIN CONTENT SECTION */
+
+.main_content {
+  height: 500px;
+}
+
+.main_content-image,
+.main_content__text-container {
+  margin: 30px;
+  width: 50%;
+}
+
+.main_content-image {
+  display: flex;
+  justify-content: center;
+}
+
+.main_content-image-source {
+  width: 85%;
+}
+
+.main_content__text-title {
+  margin: 25px 0;
+  color: var(--darkgrey);
+  font-size: 1.17rem;
+}
+
+.main_content__text {
+  width: 60%;
+  font-size: .67rem;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+/* END OF MAIN CONTENT SECTION */
+/* PRICING SECTION */
+
+.pricing {
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__header {
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.pricing__header-title {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: var(--darkgrey);
+}
+
+.pricing__header-sub-title {
+  font-size: .87rem;
+  color: var(--grey);
+}
+
+.pricing__items {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pricing__item {
+  width: 25%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 15px 0px var(--lightgrey);
+  -moz-box-shadow: 0px 4px 15px 0px var(--lightgrey);
+  box-shadow: 0px 4px 15px 0px var(--lightgrey);
+  cursor: pointer;
+  transition: .25s ease-in-out;
+}
+
+.pricing__item:hover {
+  -webkit-box-shadow: 0px 4px 15px 0px var(--grey);
+  -moz-box-shadow: 0px 4px 15px 0px var(--grey);
+  box-shadow: 0px 4px 15px 0px var(--grey);
+  transform: scale(1.05);
+}
+
+.pricing__item-title {
+  margin: 40px auto 25px;
+  color: var(--grey);
+}
+
+.pricing__item-price {
+  margin: 0 auto 5px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.pricing__item-period {
+  margin: 0 auto 30px;
+  font-size: .67rem;
+}
+
+.pricing__text {
+  margin: 0 auto 45px;
+  height: 67px;
+  font-size: .87rem;
+  line-height: 1.2;
+
+}
+
+.pricing_btn {
+  margin: 0 auto 40px;
+  width: 125px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.pricing_btn:hover {
+  background-color: var(--blue-hover);
+}
+
+/* END OF PRICING SECTION */
 /* FOOTER SECTION */
 .footer {
   background-color: var(--grey);
