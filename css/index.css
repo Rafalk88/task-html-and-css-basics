@@ -1,14 +1,24 @@
-:root {}
+:root {
+  --bgColor: rgba(194, 74, 126, 1);
+  --bgImageColor: radial-gradient(circle, rgba(194, 74, 126, 1) 0%, rgba(105, 86, 126, 1) 100%);
+  --featuresBgColor: rgba(0, 0, 0, 1);
+  --footerBgColor: rgba(0, 0, 0, 0.5);
+}
 
 .header,
 .main,
-.footer {
+.footer,
+.container {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
+.header {
+  background-color: var(--bgColor);
+  background-image: var(--bgImageColor);
+}
 .wrapper {
   max-width: 1200px;
   display: flex;
@@ -16,10 +26,15 @@
   align-items: center;
 }
 
+.container {}
 .nav {}
 
 .hero {}
 
-.features {}
+.features {
+  background-color: var(--featuresBgColor);
+}
 
-.footer {}
+.footer {
+  background-color: var(--footerBgColor);
+}
