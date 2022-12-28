@@ -2,17 +2,18 @@
 :root {
   --bg-color: rgba(194, 74, 126, 1);
   --bg-image-color: radial-gradient(circle, rgba(194, 74, 126, 1) 0%, rgba(105, 86, 126, 1) 100%);
-    --black: rgba(0, 0, 0, 1);
+  --bg-footer: #525252;
+  --black: rgba(0, 0, 0, 1);
     --darkgrey: rgba(0, 0, 0, 0.75);
     --darkgrey: rgba(0, 0, 0, 0.75);
     --grey: rgba(0, 0, 0, 0.5);
   --lightgrey: rgba(0, 0, 0, 0.1);
   --white: rgba(255, 255, 255, 1);
-    --white-hover: rgba(204, 204, 204, 1);
+  --white-hover: rgba(204, 204, 204, 1);
     --ligh-green: rgba(37, 241, 139, 1);
     --light-green-hover: rgba(81, 244, 162, 1);
-  --blue: rgba(120, 218, 244, 1);
-    --blue-hover: rgba(147, 225, 246, 1);
+  --blue: rgba(29, 167, 239, 1);
+    --blue-hover: rgba(74, 185, 242, 1);
   --white-opacity35: rgba(255, 255, 255, 0.35);
   }
   
@@ -268,6 +269,7 @@
 .pricing {
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .pricing__header {
@@ -352,8 +354,106 @@
 }
 
 /* END OF PRICING SECTION */
+/* TEAM SECTION */
+
+.team {
+  flex-direction: column;
+}
+
+.team__header {
+  margin: 55px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+}
+
+.team__title {
+  width: 100%;
+  font-size: 1.5rem;
+  color: var(--darkgrey);
+}
+
+.team__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list__item {
+  padding: 25px 0;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list__image-wrapper {
+  margin-bottom: 30px;
+}
+
+.list__title,
+.list__fullname,
+.list__text {
+  margin-bottom: 10px;
+}
+
+.list__title,
+.list__text {
+  color: var(--grey);
+}
+
+.list__image {}
+
+.list__fullname {
+  font-size: .87rem;
+  font-weight: 600;
+}
+
+.list__text {
+  font-size: .67rem;
+}
+
+.list__contact-wrapper {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__contact-twitter-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.list__contact-twitter-wrapper,
+.list__contact-fb-wrapper {
+  transform: scale(0.55);
+  cursor: pointer;
+}
+
+.list__contact-twitter-icon,
+.list__contact-fb-icon {
+  filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(100deg) brightness(100%) contrast(0%);
+}
+
+.list__contact-fb-wrapper {
+  text-align: center;
+}
+
+/* END OF TEAM SECTION */
 /* FOOTER SECTION */
+
 .footer {
-  background-color: var(--grey);
+  height: 50px;
+    background-color: var(--bg-footer);
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer__text {
+    padding-right: 15px;
+    font-size: .67rem;
+    color: var(--white);
 }
 /* END OF FOOTER SECTION */
