@@ -1,6 +1,5 @@
 :root {
-  --bg-color: rgba(194, 74, 126, 1);
-  --bg-image-color: radial-gradient(circle, rgba(194, 74, 126, 1) 0%, rgba(105, 86, 126, 1) 100%);
+  --bg-image-color: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   --bg-footer: #525252;
   --black: rgba(0, 0, 0, 1);
   --darkgrey: rgba(0, 0, 0, 0.75);

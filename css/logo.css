@@ -1,0 +1,13 @@
+.container--header {
+  background-image: var(--bg-image-color);
+}
+
+.wrapper--space-end {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+#nav img {
+  margin-left: 20px;
+  scale: 0.7;
+}
