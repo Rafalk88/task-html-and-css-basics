@@ -16,10 +16,10 @@
 }
 
 .nav__link {
-  transition: .25s ease-in-out;
+  transition: .20s ease-in-out;
 }
 
 .nav__link:hover {
   color: var(--white-hover);
-  font-weight: 600;
+  font-weight: 500;
 }
