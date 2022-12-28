@@ -1,0 +1,8 @@
+.wrapper--media {
+  height: 80px;
+  align-items: center;
+}
+
+.media__image {
+  scale: .8;
+}
