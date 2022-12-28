@@ -1,0 +1,16 @@
+:root {
+  --bg-color: rgba(194, 74, 126, 1);
+  --bg-image-color: radial-gradient(circle, rgba(194, 74, 126, 1) 0%, rgba(105, 86, 126, 1) 100%);
+  --bg-footer: #525252;
+  --black: rgba(0, 0, 0, 1);
+  --darkgrey: rgba(0, 0, 0, 0.75);
+  --grey: rgba(0, 0, 0, 0.5);
+  --lightgrey: rgba(0, 0, 0, 0.1);
+  --white: rgba(255, 255, 255, 1);
+  --white-hover: rgba(204, 204, 204, 1);
+  --lighgreen: rgba(37, 241, 139, 1);
+  --lightgreen-hover: rgba(81, 244, 162, 1);
+  --blue: rgba(29, 167, 239, 1);
+  --blue-hover: rgba(74, 185, 242, 1);
+  --white-opacity35: rgba(255, 255, 255, 0.35);
+}
