@@ -19,24 +19,9 @@
   line-height: 1.6;
 }
 
-.hero__btn {
-  width: 180px;
-  height: 40px;
-  font-size: 0.75rem;
-  border: none;
-  border-radius: 8px;
-  background-color: var(--lighgreen);
-  transition: .25s ease-in-out;
-  cursor: pointer;
-}
-
-.hero__btn:hover {
-  background-color: var(--lightgreen-hover);
-}
-
 .hero__image {
   width: 63%;
-    display: flex;
+  display: flex;
     justify-content: center;
     align-items: center;
 }
