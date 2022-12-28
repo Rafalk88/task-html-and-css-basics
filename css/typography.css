@@ -4,6 +4,9 @@
   --medium: 1em;
   --big: 1.5em;
   --very-big: 2em;
+  --weight-200: 200;
+    --weight-400: 400;
+    --weight-700: 700;
 }
 
 .typo {
@@ -34,4 +37,15 @@
 
 .typo--darkgrey {
   color: var(--darkgrey);
+}
+.typo--extralight {
+  font-weight: var(--weight-200)
+}
+
+.typo--regular {
+  font-weight: var(--weight-400)
+}
+
+.typo--bold {
+  font-weight: var(--weight-700)
 }
