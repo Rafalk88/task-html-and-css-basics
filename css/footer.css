@@ -1,0 +1,17 @@
+.container--footer {
+  background-color: var(--bg-footer);
+}
+
+.wrapper--footer {
+  height: 58px;
+  flex-direction: row;
+}
+
+.wrapper--footer>* {
+  display: flex;
+  align-items: center;
+}
+
+.footer__image-file {
+  scale: .8;
+}
