@@ -42,6 +42,9 @@ ul {
   min-width: 180px;
 }
 
+.btn--pricing {
+  min-width: 135px;
+}
 .btn--lighgreen {
   background-color: var(--lighgreen);
 }
@@ -50,6 +53,13 @@ ul {
   background-color: var(--lightgreen-hover);
 }
 
+.btn--blue {
+  background-color: var(--blue);
+}
+
+.btn--blue:hover {
+  background-color: var(--blue-hover);
+}
 .btn--white {
   color: var(--white);
 }

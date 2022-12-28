@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap&subset=latin"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap&subset=latin"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/theme.css">
@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/hero.css">
   <link rel="stylesheet" href="./css/features.css">
   <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <link rel="stylesheet" href="./css/pricing.css">
   <link rel="stylesheet" href="./css/index.css">
   <title>RK design - first webpage</title>
 </head>
@@ -88,61 +90,63 @@
     </section>
     <aside class="container" id="media">
       <figure class="wrapper wrapper--media">
-        <img src="./images/logos.png" alt="media-image" class="media__image">
+        <img src="./images/logos.png" alt="media-image" class="media__image-file">
       </figure>
     </aside>
-    <section class="container" id="main_content">
-      <div class="wrapper main_content">
-        <figure class="main_content-image">
-          <img src="./images/imac.png" alt="main_content-image" class="main_content-image-source">
+    <section class="container" id="content">
+      <div class="wrapper wrapper--content">
+        <figure class="content-image">
+          <img src="./images/imac.png" alt="content-image">
         </figure>
-        <article class="main_content__text-container">
-          <h3 class="main_content__text-title">SIMPLE AND BEAUTIFUL</h3>
-          <p class="main_content__text">Use Nova Theme for your next web project. It is completly customizable so you can
+        <article class="content__text-container">
+          <h3 class="content__text-title typo--big typo--darkgrey typo--regular typo--normal">SIMPLE AND BEAUTIFUL</h3>
+          <p class="content__text typo--very-small typo--extralight typo--wide">Use Nova Theme for your next web project. It is
+            completly
+            customizable so you can
             change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and comercial.
             Have fun and good luck!</p>
         </article>
       </div>
     </section>
-    <section class="container" id="pricing">
-      <div class="wrapper pricing">
+    <section class="container container--pricing" id="pricing">
+      <div class="wrapper wrapper--pricing">
         <header class="pricing__header">
-          <h3 class="pricing__header-title">CHOOSE YOUR PRICING PLAN</h3>
-          <p class="pricing__header-sub-title">Pick any of our super affordable pricing plans</p>
+          <h3 class="pricing__header-title typo--big typo--darkgrey typo--regular typo--wide">CHOOSE YOUR PRICING PLAN</h3>
+          <p class="typo--small typo--grey typo--normal">Pick any of our super affordable pricing plans</p>
         </header>
         <ul class="pricing__items">
           <li class="pricing__item">
-            <h4 class="pricing__item-title">BASIC</h4>
-            <p class="pricing__item-price">$15</p>
-            <p class="pricing__item-period">per month</p>
+            <h4 class="pricing__item-title typo--extralight">BASIC</h4>
+            <p class="pricing__item-price typo--very-big typo--darkgrey typo--bold">$15</p>
+            <p class="pricing__item-period typo--very-small">per month</p>
             <ul class="pricing__text">
-              <li>Up to 7 Projects</li>
-              <li>2 Additional Developers</li>
+              <li class="typo--small typo--regular">Up to 7 Projects</li>
+              <li class="typo--small typo--regular">2 Additional Developers</li>
             </ul>
-            <button class="pricing_btn">Get Started</button>
+            <button class="btn btn--pricing btn--blue typo--white">Get Started</button>
           </li>
           <li class="pricing__item">
-            <h4 class="pricing__item-title">AGENCY</h4>
-            <p class="pricing__item-price">$55</p>
-            <p class="pricing__item-period">per month</p>
-            <ul class="pricing__text">
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
+            <h4 class="pricing__item-title typo--extralight">AGENCY</h4>
+            <p class="pricing__item-price typo--very-big typo--darkgrey typo--bold">$55</p>
+            <p class="pricing__item-period typo--very-small">per month</p>
+            <ul class="pricing__text typo--small">
+              <li class="typo--small typo--regular">Up to 25 Projects</li>
+              <li class="typo--small typo--regular">2 Additional Developers</li>
+              <li class="typo--small typo--regular">Unlimited Support</li>
             </ul>
-            <button class="pricing_btn">Get Started</button>
+            <button class="btn btn--pricing btn--blue typo--white">Get Started</button>
           </li>
           <li class="pricing__item">
-            <h4 class="pricing__item-title">PRO</h4>
-            <p class="pricing__item-price">$75</p>
-            <p class="pricing__item-period">per month</p>
-            <ul class="pricing__text">
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
-              <li>1.5GB Disk Space</li>
+            <h4 class="pricing__item-title typo--extralight">PRO</h4>
+            <p class="pricing__item-price typo--very-big typo--darkgrey typo--bold">$75</p>
+            <p class="pricing__item-period typo--very-small">per month</p>
+            <ul class="pricing__text typo--small">
+              <li class="typo--small typo--regular">Up to 25 Projects</li>
+              <li class="typo--small typo--regular">2 Additional Developers</li>
+              <li class="typo--small typo--regular">Unlimited Support</li>
+              <li class="typo--small typo--regular">1.5GB Disk Space</li>
             </ul>
-            <button class="pricing_btn">Get Started</button>
+            <button class="btn btn--pricing btn--blue typo--white">Get Started</button>
           </li>
         </ul>
       </div>

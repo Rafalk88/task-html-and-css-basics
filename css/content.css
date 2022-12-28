@@ -1,0 +1,34 @@
+.wrapper--content {
+  height: 500px;
+  padding-bottom: 60px;
+}
+
+.wrapper--content>* {
+  margin-top: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-image img {
+  max-width: 100%;
+}
+
+.content__text-container {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.content__text-container>* {
+  margin-left: 100px;
+}
+
+.content__text-title {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.content__text {
+  width: 60%;
+  line-height: 2.2;
+}

@@ -5,8 +5,11 @@
   --big: 1.5em;
   --very-big: 2em;
   --weight-200: 200;
-  --weight-400: 400;
+  --weight-500: 500;
     --weight-700: 700;
+  --spacing-short: -1px;
+    --spacing-normal: .5px;
+    --spacing-wide: 1px;
 }
 
 .typo {
@@ -35,17 +38,32 @@
   color: var(--white);
 }
 
+.typo--grey {
+  color: var(--grey);
+}
 .typo--darkgrey {
   color: var(--darkgrey);
 }
+
 .typo--extralight {
   font-weight: var(--weight-200)
 }
 
 .typo--regular {
-  font-weight: var(--weight-400)
+  font-weight: var(--weight-500)
 }
 
 .typo--bold {
   font-weight: var(--weight-700)
+}
+.typo--short {
+  letter-spacing: var(--spacing-short)
+}
+
+.typo--normal {
+  letter-spacing: var(--spacing-normal)
+}
+
+.typo--wide {
+  letter-spacing: var(--spacing-wide)
 }
