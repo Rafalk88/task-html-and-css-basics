@@ -1,0 +1,37 @@
+:root {
+  --very-small: .67em;
+  --small: .87em;
+  --medium: 1em;
+  --big: 1.5em;
+  --very-big: 2em;
+}
+
+.typo {
+  text-decoration: none;
+  font-size: var(--medium);
+  color: var(--black);
+}
+
+.typo--very-small {
+  font-size: var(--very-small);
+}
+
+.typo--small {
+  font-size: var(--small);
+}
+
+.typo--big {
+  font-size: var(--big);
+}
+
+.typo--very-big {
+  font-size: var(--very-big);
+}
+
+.typo--white {
+  color: var(--white);
+}
+
+.typo--darkgrey {
+  color: var(--darkgrey);
+}

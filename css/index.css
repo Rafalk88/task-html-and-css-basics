@@ -1,39 +1,3 @@
-/* LOGO SECTION */
-
-/* END OF LOGO SECTION */
-
-/* NAV SECTION */
-
-.nav {
-  margin-top: 7px;
-  margin-right: 54px;
-}
-
-.nav ul,
-.nav li {
-  display: flex;
-}
-
-.nav__item {
-  margin-left: 15px;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav__link {
-  text-decoration: none;
-  color: var(--white);
-  font-size: 0.8rem;
-  transition: .25s ease-in-out;
-}
-
-.nav__link:hover {
-  color: var(--white-hover);
-    font-weight: 600;
-}
-
-/* END OF NAV SECTION */
-
 /* HERO SECTION */
 .hero {
   width: 100%;

@@ -1,0 +1,24 @@
+.nav {
+  margin-top: 7px;
+  margin-right: 54px;
+}
+
+.nav ul,
+.nav li {
+  display: flex;
+}
+
+.nav__item {
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__link {
+  transition: .25s ease-in-out;
+}
+
+.nav__link:hover {
+  color: var(--white-hover);
+  font-weight: 600;
+}
